@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  line-height: 1.6;
+  background-color: rgb(46, 157, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+label {
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 3rem 0;
+}
+
+.header-title {
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0.5rem 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.form-input {
+  width: 70%;
+  margin-left: 0.5rem;
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 3px solid #444;
+  background-color: rgb(46, 157, 255);
+  font-size: 1.15rem;
+  transition: border 200ms linear;
+}
+
+.form-input:focus {
+  outline: none;
+  border-bottom: 3px solid #fff;
+}
+
+.weather-detail {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.weather-content {
+  padding: 1rem;
+}
+
+.city-name {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 1rem;
+}
+
+.city-temp {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.link-tag {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+}

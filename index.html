@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Weather Application</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header-title">City Weather App</h1>
+      </header>
+
+      <form class="form-panel">
+        <label for="city" class="label"
+          >Search
+          <input
+            class="form-input"
+            type="text"
+            id="city"
+            name="city"
+            placeholder="City"
+        /></label>
+      </form>
+
+      <section class="weather-detail">
+        <div class="weather-content">
+          <h2 class="city-name">Manila City - PH</h2>
+
+          <p class="city-temp">28.9 🌡</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <small
+          >Powered by
+          <a class="link-tag" href="https://openweathermap.org/" target="_blank"
+            >Openweather API</a
+          ></small
+        >
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
